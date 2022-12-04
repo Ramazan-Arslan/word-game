@@ -1,0 +1,14 @@
+.modal-body{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    font-family: 'Press Start 2P';
+
+    &--error-text{
+        li:last-child {
+            color: red;
+        }
+    }
+}
+
+

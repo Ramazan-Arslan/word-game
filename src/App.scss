@@ -1,0 +1,27 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Press Start 2P';
+
+  &__input-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+  }
+
+  &__start-button{
+    animation: blink-animation 0.8s linear infinite;
+  }
+}
+
+@keyframes blink-animation {
+  50% {
+    opacity: .3;
+  }
+}
